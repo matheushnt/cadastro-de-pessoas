@@ -1,0 +1,6 @@
+# TODO: Modularizar o Sistema de Cadastro
+# TODO: Criar o Loop Principal do Sistema
+# TODO: Exibir um Menu com as opções: Cadastrar Nova Pessoa, Listar Pessoas, Sair do Sistema
+# TODO: Criar o Pacote com os módulos
+# TODO: Criar um Módulo para a Interface do Sistema e outro para Manipulação de Arquivos
+# TODO: Fazer o Tratamento de Erros e Exceções do Sistema
