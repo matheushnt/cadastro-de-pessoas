@@ -1,12 +1,13 @@
 def ler_inteiro():
-    try:
-        val = int(input('Sua opção: '))
-    except (ValueError, TypeError):
-        print('Digite uma opção válida.')
-    except KeyboardInterrupt:
-        print('o usuário preferiu não informar opções.')
-    else:
-        return val
+    while True:
+        try:
+            val = int(input('Sua opção: '))
+        except (ValueError, TypeError):
+            print('Digite uma opção válida.')
+        except KeyboardInterrupt:
+            print('o usuário preferiu não informar opções.')
+        else:
+            return val
 
 
 def linha(tam=45):
