@@ -1,7 +1,7 @@
-def ler_inteiro():
+def ler_inteiro(msg):
     while True:
         try:
-            val = int(input('Sua opção: '))
+            val = int(input(msg))
         except (ValueError, TypeError):
             print('Digite uma opção válida.')
         except KeyboardInterrupt:
@@ -26,5 +26,5 @@ def menu(lst):
         print(f'{cont} - {item}')
         cont += 1
     linha()
-    opc = ler_inteiro()
+    opc = ler_inteiro('Sua Opção: ')
     return opc
